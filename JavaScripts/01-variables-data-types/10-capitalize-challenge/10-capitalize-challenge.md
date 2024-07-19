@@ -2,7 +2,8 @@
 
 **Instructions**:
 
-Take the variable `myString` and capitalize the first letter of the word using some of the methods that we talked about in the last video. Put the result in a variable called `myNewString`.
+Take the variable `myString` and capitalize the first letter of the word using some of the methods that we talked about
+in the last video. Put the result in a variable called `myNewString`.
 
 Create multiple solutions if you would like.
 
@@ -36,6 +37,8 @@ const myNewString = myString[0].toUpperCase() + myString.substring(1);
 const myNewString = `${myString[0].toUpperCase()}${myString.slice(1)}`;
 ```
 
-In all of these, we get the first character of the string, then we use the **substring()** or **slice()** method to get the rest of the string. We then use the **toUpperCase()** method to capitalize the first character and then we concatenate the result with the rest of the string.
+In all of these, we get the first character of the string, then we use the **substring()** or **slice()** method to get
+the rest of the string. We then use the **toUpperCase()** method to capitalize the first character and then we 
+concatenate the result with the rest of the string.
 
 </details>
