@@ -71,12 +71,16 @@ console.log(sum);
 
 //Challenge 3
 const words = ['coder', 'programmer', 'developer'];
+//Solution 1
 
-const capitalizedWords = [];
+// const capitalizedWords = [];
 
-for (const word of words) {
-  let newWord = word[0].toUpperCase() + word.slice(1);
-  capitalizedWords.push(newWord);
-}
+// for (const word of words) {
+//   let newWord = word[0].toUpperCase() + word.slice(1);
+//   capitalizedWords.push(newWord);
+// }
+
+//Solution 2
+const capitalizedWords = words.map(word => word[0].toUpperCase() + word.slice(1));
 
 console.log(capitalizedWords);
