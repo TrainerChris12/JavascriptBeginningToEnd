@@ -33,6 +33,7 @@ function clearAllItems4() {
 }
 
 clearBtn.addEventListener('click', clearAllItems4);
+
 //JavaScript Event Listener
 // clearBtn.onclick = function () {
 //     alert('Clear Items');
